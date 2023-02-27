@@ -12,4 +12,6 @@ int main(){
     for(int i=0;i<x-1;i++){
         cout<<arr[i];
     }
+    // arr[i] = *(arr+i), i[arr] = *(i+arr),   arr[] = *arr,  int* i = new int,   int* arr = new int[5],  delete i,   delete []arr
+    
 }
